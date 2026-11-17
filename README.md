@@ -18,8 +18,6 @@ Axel Records is an immersive, browser-based 3D vinyl record collection and virtu
 
 
 * **Live Catalog Search**: Instantly query albums using built-in integrations with **Apple Music**, **Deezer**, and **MusicBrainz**.
-<img width="338" height="715" alt="image" src="https://github.com/user-attachments/assets/a585d71d-7f5a-49af-b895-0f2ce9fb2385" />
-
 
 * **Collector Toolkit**: Rate albums, write personal liner notes/memories, log spin counts, customize pressing wax colors, and export/import JSON library backups.
   
