@@ -22,15 +22,19 @@ Axel Records is an immersive, browser-based 3D vinyl record collection and virtu
 
 
 * **Collector Toolkit**: Rate albums, write personal liner notes/memories, log spin counts, customize pressing wax colors, and export/import JSON library backups.
+  
+---
 
+## Try it out on the website:
+https://maxaxel.my.canva.site/axelrecords
 
 ---
 
 ## 🚀 Installation & Local Development
+<br>
+ **Just Download the HTML file from releases and run in your browser**
 
-# **Just Download the HTML file from releases and run in your browser**
-
-**OR**
+# **FOR DEVELOPMENT:**
 
 Because this project runs as a high-performance static WebGL application with ES modules, you can run it instantly using any local static file server:
 
