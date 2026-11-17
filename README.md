@@ -31,10 +31,12 @@ https://maxaxel.my.canva.site/axelrecords
 ---
 
 ## 🚀 Installation & Local Development
-<br>
- **Just Download the HTML file from releases and run in your browser**
 
-# **FOR DEVELOPMENT:**
+# **Installation:**
+
+**Just Download the HTML file from releases and run in your browser**
+
+# **For Devlopment:**
 
 Because this project runs as a high-performance static WebGL application with ES modules, you can run it instantly using any local static file server:
 
