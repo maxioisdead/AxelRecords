@@ -58,16 +58,13 @@ python3 -m http.server 8000
 
 ---
 
-## 🔮 Future Vision: Community-Driven Interactive Library
+## 🔮 Future Vision
 
-The long-term vision for Axel Records is to transform it from a standalone 3D visualizer into a robust, **community-driven interactive library software**.
+Axel Records is built as an open foundation for the community to expand into a complete, lightweight 3D music library and virtual listening room:
 
-We want to empower music collectors, archivists, and crate-diggers to connect directly with external cataloging platforms. The roadmap for the future includes:
-
-* **RateYourMusic (RYM) Integration**: Direct importing of custom RYM CSV exports, lists, and collection URLs so users can seamlessly populate their 3D bookcases with their exact ratings, custom tags, and listening histories.
-* **Decentralized Community Sharing**: Allowing users to share custom room configurations, posters, and curated library snapshots with friends.
-* **Expanded Metadata Sync**: Deeper integration with music databases for automated liner notes, release variants, and audiophile press details.
-* **Collaborative Crate-Digging**: Real-time multi-user listening rooms where friends can browse each other's shelves and drop records onto a shared turntable.
+- **Seamless External Sync**: Deeper two-way syncing with **RateYourMusic**, **Discogs**, and **MusicBrainz** to automatically pull release variants, liner notes, and high-res covers without manual entry.
+- **Native Desktop & Performance**: Packaging as a lightweight cross-platform desktop app (via Tauri/Electron) with instanced rendering so massive 1,000+ record collections run effortlessly.
+- **Social Listening Rooms**: Shareable room snapshots, custom hall props, and live multiplayer sessions where friends can browse your shelves and drop records onto a shared turntable.
 
 ---
 
