@@ -4,6 +4,27 @@ All notable changes to the Axel Records 3D Vinyl Library & Listening Room are do
 
 ---
 
+## [v1.0.3] — 2026-11-18
+
+### ✨ New Features & Improvements
+
+- **Interactive Release & Song Picker for "Refresh Data":**
+  - Clicking **↻ Refresh Data** in the Album Details drawer now opens an inline candidate picker dropdown instead of blindly overwriting metadata.
+  - Queries Apple Music Albums, Apple Music Songs, and Deezer in parallel so you can compare cover art, release years, and track matches—or refine the search query—and pick the exact pressing you want.
+- **Persistent Album Details Drawer Memory:**
+  - The open/closed state of the **Album Details** drawer is now saved across sessions (`localStorage`), remaining consistent when you press `Escape`, click off onto the 3D hall canvas, or switch between records.
+- **Smart Shelf-to-Turntable Live Scrobble Matching:**
+  - When a song plays live via Last.fm or Spotify, Axel Records checks your physical shelves by album title, artist, or tracklist match.
+  - If the record is in your collection, it stages your shelved edition onto the credenza stand, loads its custom vinyl pressing wax color (e.g., Cobalt, Honey Amber, Ruby) onto the turntable platter, highlights its spine in emerald on the bookcase, and displays `ON SHELF LIVE` on the OLED console.
+- **Enhanced Duplicate Title & Artist Detection:**
+  - Upgraded **🔍 Check Duplicates** to detect both exact album/artist duplicates and normalized title collisions (stripping edition tags like *Deluxe*, *Remastered*, or *Anniversary*), clearly labeling each match reason in the scanner modal.
+- **Improved JSON Clipboard & Backup Reliability:**
+  - Added a multi-step clipboard fallback to **📋 Copy JSON** so copying your library backup works smoothly even inside sandboxed iframes or local `file://` environments, paired with direct `.json` file export and paste-to-restore support.
+- **Shelf Deletion Confirmation & Title Version Bump:**
+  - Added a confirmation modal when deleting a bookcase shelf showing how many records will safely transfer to the primary shelf, and updated the UI version badge to **v1.0.3**.
+
+---
+
 ## [v1.0.25] — 2026-11-18
 
 ### 🚀 Major Improvements & New Features
