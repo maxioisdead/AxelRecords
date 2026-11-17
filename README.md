@@ -28,6 +28,10 @@ Axel Records is an immersive, browser-based 3D vinyl record collection and virtu
 
 ## 🚀 Installation & Local Development
 
+# **Just Download the HTML file from releases and run in your browser**
+
+**OR**
+
 Because this project runs as a high-performance static WebGL application with ES modules, you can run it instantly using any local static file server:
 
 1. Clone or download the repository:
